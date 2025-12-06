@@ -73,3 +73,12 @@ The main project structure follows a separation by responsibility:
 ├── tsconfig.json
 ├── eslint.config.js / .eslintrc.*
 └── .prettierrc
+
+---
+
+## 🚀 to start the project, after clone, just need to run: 
+
+1. `npm install`
+2. `npm run dev`
+
+And have fun! 🎉
