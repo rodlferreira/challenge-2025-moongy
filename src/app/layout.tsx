@@ -5,6 +5,9 @@ import AppShell from "@/app/components/layout/AppShell";
 
 export const metadata: Metadata = {
     title: "Powerpuff TV Explorer",
+    icons: {
+        icon: '/favicon.svg',
+    },
     description: "Explore The Powerpuff Girls episodes using TVMaze API",
 }
 

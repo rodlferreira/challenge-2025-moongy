@@ -1,5 +1,6 @@
 import {getShowWithEpisodes} from "@/app/lib/tvmaze";
 import Image from "next/image";
+import EpisodesList from "@/app/components/episodes/EpisodesList";
 
 export default async function Page() {
     const { show, episodes } = await getShowWithEpisodes();
@@ -34,7 +35,6 @@ export default async function Page() {
             </section>
 
             <section aria-label="Lista de episódios da série">
-                {/*still need to create this file*/}
                 <EpisodesList episodes={episodes} />
             </section>
         </div>
